@@ -8,7 +8,7 @@ class C_PMasuk extends CI_Controller {
 		} else {
 			$data	= $this->M_Pendahuluan->masuk();
 
-			$this->load->view("pengurus/login_v3", $data);
+			$this->load->view("pengurus/login", $data);
 		}
   }
 }
